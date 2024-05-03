@@ -1,0 +1,73 @@
+body{
+background-image: url(https://videohive.img.customer.envatousercontent.com/files/d418bcb1-b234-43b2-81e9-d005f3a33a43/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=1d58a0ea3a405e8ab243aebfa195767d);
+}
+
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+    color: violet;
+    
+    
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.box {
+    height: 110px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  violet;
+    color: white;
+    font-size: 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: 2px  2px violet ;
+}
+
+.box:hover {
+    background-color: rgb(219, 67, 219);
+    color: black;
+}
+
+.info-box {
+    /* flex-grow: 1; */
+    justify-content: center;
+    align-items: center;
+    border: 1px solid violet;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 10px;
+}
+
+div > b{
+ margin-left: 30px;
+ font-size: 20px;
+ margin-top: 60px;
+ color: white;
+ border: 2px;
+}
+.msg {
+    text-align: center;
+    /* background-color: blue; */
+  }
+
+  span{
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+}
+
+h1{
+padding-top: 70px;
+
+}
